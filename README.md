@@ -14,12 +14,12 @@
 
 2.   Generar código para guardar salida en formato JSON (validable en https://jsonlint.com/).
 3.   Crear clase Alumno con los siguiente atributos: 
-    -id
-    -nombre completo
-    -RUT
-    -fecha de nacimiento
-    -correo
-    -teléfono 
+    - id
+    - nombre completo
+    - RUT
+    - fecha de nacimiento
+    - correo
+    - teléfono 
     (la data ya se encuentra en las tablas provistas en la DB, revisar xlsx adjunto en el repositorio).
 4.   Crear una función que en base al 2° parametro de la ejecución genere un JSON con los alumnos habilitados o los inhabilitados.
 >   $ php testCLI.php 23 **1**
