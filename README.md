@@ -17,7 +17,7 @@ Ejecutar el script y capturar el JSON extraído:
     (la data ya se encuentra en las tablas provistas en la DB, revisar xlsx adjunto en el repositorio).
 3   Crear una función que en base al 2° parametro de la ejecución genere un JSON con los alumnos habilitados o los inhabilitados.
 >   $ php testCLI.php 23 1
-4   Crear una función que en base al 3° parametro de la ejecución genere un JSON con los alumnos del id del curso indicado.
->   $ php testCLI.php 23 1 23423
 
+4.   Crear una función que en base al 3° parametro de la ejecución genere un JSON con los alumnos del id del curso indicado.
+>   $ php testCLI.php 23 1 23423
 
