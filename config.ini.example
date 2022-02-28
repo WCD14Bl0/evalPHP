@@ -4,29 +4,14 @@ ERRORLOG = true
 QUERYLOG = false
 SCREEN = true
 PATH = 'logs/'
-FILENAME = etlLibroDigital.log
-ERRORFILENAME = error_etlLibroDigital.log
-QUERYFILENAME = queries_etlLibroDigital.log
+FILENAME = testCLI.log
+ERRORFILENAME = error_testCLI.log
+QUERYFILENAME = queries_testCLI.log
 DATEONFILENAME = true
 
-[DB_ORIGEN]
-HOST = 172.20.0.1
-PORT = 3306
+[DB]
+HOST = 1.0.0.721
+PORT = 6033
 DATABASE = base_de_gatos
-USERNAME = username
+USERNAME = emanresu
 PASSWORD = password
-
-[DB_DESTINO]
-HOST = 172.20.0.1
-PORT = 1521
-DATABASE = base_de_gatos
-USERNAME = username
-PASSWORD = password
-
-[CSV]
-EDE = C:\dockerETL
-LOCATION = tmp
-FINAL_LOCATION = /final/location
-
-[EDE]
-FINAL_LOCATION = downloads
