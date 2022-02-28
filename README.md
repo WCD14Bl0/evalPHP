@@ -5,6 +5,15 @@
 ## Definiciones
 * Las consultas a base de datos deben realizarse por **PDO**, utilizando prepare y bindParam definiendo tipo de parametro
 * La respuesta de las consultas deben ser devueltas en formato **OBJETO**
+* Se requiere control de excepciones.
+* Cada item tiene un valor de 6 puntos que se descomponen en:
+  - 2 ptos. funcionamiento
+  - 2 ptos. manejo de excepciones
+  - 1 pto. orden
+  - 1 pto. complejidad
+
+
+**La respuesta se debe entregar en el fork generado a este repositorio.**
 
 ##  Tareas:
 1.  Dar Fork a este repositorio, clonar y ejecutar el script, capturando el JSON extraído: 
@@ -13,14 +22,13 @@
 ***Definiciones de tablas a utilizar en TablasEvaluacionDesarrollo.xlsx***
 
 2.   Generar código para guardar salida en formato JSON (validable en https://jsonlint.com/).
-3.   Crear clase Alumno con los siguiente atributos: 
-    - id
-    - nombre completo
-    - RUT
-    - fecha de nacimiento
-    - correo
-    - teléfono 
-    (la data ya se encuentra en las tablas provistas en la DB, revisar xlsx adjunto en el repositorio).
+3.   Crear clase Alumno con los siguiente atributos (la data ya se encuentra en las tablas provistas en la DB): 
+     - id
+     - nombre completo
+     - RUT
+     - fecha de nacimiento
+     - correo
+     - teléfono
 4.   Crear una función que en base al 2° parametro de la ejecución genere un JSON con los alumnos habilitados o los inhabilitados.
 >   $ php testCLI.php 23 **1**
 
