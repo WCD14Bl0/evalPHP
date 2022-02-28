@@ -1,0 +1,32 @@
+[LOG]
+ENABLE = true
+ERRORLOG = true
+QUERYLOG = false
+SCREEN = true
+PATH = 'logs/'
+FILENAME = etlLibroDigital.log
+ERRORFILENAME = error_etlLibroDigital.log
+QUERYFILENAME = queries_etlLibroDigital.log
+DATEONFILENAME = true
+
+[DB_ORIGEN]
+HOST = 172.20.0.1
+PORT = 3306
+DATABASE = base_de_gatos
+USERNAME = username
+PASSWORD = password
+
+[DB_DESTINO]
+HOST = 172.20.0.1
+PORT = 1521
+DATABASE = base_de_gatos
+USERNAME = username
+PASSWORD = password
+
+[CSV]
+EDE = C:\dockerETL
+LOCATION = tmp
+FINAL_LOCATION = /final/location
+
+[EDE]
+FINAL_LOCATION = downloads
