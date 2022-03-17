@@ -21,17 +21,21 @@
 
 ***Definiciones de tablas a utilizar en TablasEvaluacionDesarrollo.xlsx***
 
-2.   Generar código para guardar salida en formato JSON (validable en https://jsonlint.com/).
-3.   Crear clase Alumno con los siguiente atributos (la data ya se encuentra en las tablas provistas en la DB): 
+
+***LAS TABLAS CON LA DATA NECESARIA SE ENCUENTRAN EN EL ARCHIVO DB.zip, CADA TABLA VA EN UN ARCHIVO SQL POR SEPARADO***
+
+2.   Levantar una base de datos MySQL y en ella montar las tablas contenidas en los sql de **DE.zip**
+3.   Generar código para guardar salida en formato JSON (validable en https://jsonlint.com/).
+4.   Crear clase Alumno con los siguiente atributos (la data ya se encuentra en las tablas provistas en la DB): 
      - id
      - nombre completo
      - RUT
      - fecha de nacimiento
      - correo
      - teléfono
-4.   Crear una función que en base al 2° parametro de la ejecución genere un JSON con los alumnos habilitados o los inhabilitados.
+5.   Crear una función que en base al 2° parametro de la ejecución genere un JSON con los alumnos habilitados o los inhabilitados.
 >   $ php testCLI.php 23 **1**
 
-5.   Crear una función que en base al 3° parametro de la ejecución genere un JSON con los alumnos del id del curso indicado.
+6.   Crear una función que en base al 3° parametro de la ejecución genere un JSON con los alumnos del id del curso indicado.
 >   $ php testCLI.php 23 1 **23423**
 
