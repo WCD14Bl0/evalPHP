@@ -12,6 +12,10 @@
   - 1 pto. orden
   - 1 pto. complejidad
 
+_Puede levantar un entorno de desarrollo rápido con [Laragon](https://laragon.org/)_
+
+[Descargar Laragon Portable](https://github.com/leokhoa/laragon/releases/download/5.0.0/laragon-portable.zip) 
+
 
 **La respuesta se debe entregar en el fork generado a este repositorio.**
 
