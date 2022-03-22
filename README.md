@@ -20,7 +20,7 @@ _Puede levantar un entorno de desarrollo rápido con [Laragon](https://laragon.o
 **La respuesta se debe entregar en el fork generado a este repositorio.**
 
 ##  Tareas:
-1.  Dar Fork a este repositorio, clonar y ejecutar el script, capturando el JSON extraído: 
+1.  **Dar Fork a este repositorio**, clonar y ejecutar el script, capturando el JSON extraído: 
 >$ php testCLI.php 23
 
 ***Definiciones de tablas a utilizar en TablasEvaluacionDesarrollo.xlsx***
@@ -28,8 +28,8 @@ _Puede levantar un entorno de desarrollo rápido con [Laragon](https://laragon.o
 
 ***LAS TABLAS CON LA DATA NECESARIA SE ENCUENTRAN EN EL ARCHIVO DB.zip, CADA TABLA VA EN UN ARCHIVO SQL POR SEPARADO***
 
-2.   Levantar una base de datos MySQL y en ella montar las tablas contenidas en los sql de **DE.zip**
-3.   Generar código para guardar salida en formato JSON (validable en https://jsonlint.com/).
+2.   Levantar una base de datos MySQL a partir del dump entregado en este repositorio **webclasseval.sql**
+3.   Generar código para guardar salida en un archivo en formato JSON (validable en https://jsonlint.com/) (no incluir el archivo, debe poder generarse).
 4.   Crear clase Alumno con los siguiente atributos (la data ya se encuentra en las tablas provistas en la DB): 
      - id
      - nombre completo
@@ -37,9 +37,9 @@ _Puede levantar un entorno de desarrollo rápido con [Laragon](https://laragon.o
      - fecha de nacimiento
      - correo
      - teléfono
-5.   Crear una función que en base al 2° parametro de la ejecución genere un JSON con los alumnos habilitados o los inhabilitados.
+5.   Crear una función que en base al **2°** parametro de la ejecución genere un JSON con los alumnos habilitados o los inhabilitados.
 >   $ php testCLI.php 23 **1**
 
-6.   Crear una función que en base al 3° parametro de la ejecución genere un JSON con los alumnos del id del curso indicado.
+6.   Crear una función que en base al **3°** parametro de la ejecución genere un JSON con los alumnos del id del curso indicado.
 >   $ php testCLI.php 23 1 **23423**
 
